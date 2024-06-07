@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 weightConditionTextView.text = "Weight Condition: $weightCondition"
             } else {
-                Toast.makeText(this, "Please enter valid height and weight values.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please enter valid height and weight values !", Toast.LENGTH_SHORT).show()
                 bmiResultTextView.text = "Total BMI: "
                 weightConditionTextView.text = "Weight Condition: "
             }
